@@ -1,0 +1,71 @@
+/* first use img css property*/
+img{
+    display: block;
+}
+h1{
+    margin: 0;
+}
+/* start main fun ction css property */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+
+}
+/* section part ar container block  */
+.container{
+    background-color: #161616;
+    border-radius: 30px;
+    width: 1200px;
+    margin: 20px;
+
+}
+.players{
+    display: flex;
+}
+.player-body{
+    width: 50%;
+}
+.player-body img{
+    width: 100%;
+    
+}
+.player-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+
+}
+/* now write the css property player body  h1 */
+.player-body h1{
+    line-height: 1;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700px;
+  
+
+}
+/* now write the css property player body p  */
+.player-body p{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400px;
+    font-size: 16px;
+
+} 
+.button-watch{
+    font-size: 20px;
+}
+.player-body button{
+    font-size: 20px;
+    background-color: #dd0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    width: 200px;
+}
